@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/CONTACT FORM.CSS" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <title>Contact Us</title>
+</head>
+<body>
+  <main>
+    <h1>Contact Us</h1>
+    <section id="contact_form">
+      <form>
+        <div class="form-column">
+          <div class="form-group">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Your name..."
+            />
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Your last name..."
+            />
+          </div>
+        </div>
+        <div class="form-column">
+          <div class="form-group">
+            <label for="femail">Email</label>
+            <input
+              type="text"
+              id="femail"
+              name="femail"
+              placeholder="Your email..."
+            />
+          </div>
+          <div class="form-group">
+            <label for="fphone">Phone number</label>
+            <input
+              type="text"
+              id="fphone"
+              name="fphone"
+              placeholder="Your phone number..."
+            />
+          </div>
+        </div>
+              <div class="dropdown">
+                <label class="dropbtn">Country</label>
+                <div class="dropdown-content">
+                  <a href="#"> <div class="flag"></div>
+                    <span class="fi fi-as"></span>
+                    <i class="select">Austria</i></a>
+                  <a href="#"><div class="flag"></div>
+                    <span class="fi fi-al"></span>
+                    <i class="select">Italia</i></a>
+                  <a href="#"><div class="flag"></div>
+                    <span class="fi fi-au"></span>
+                    <i class="select">Franta</i></a>
+                </div>
+              </div>
+        <div class="form-group">
+          <label for="address">Address</label>
+          <input type="text" id="address" placeholder="Your address..." />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" rows="4" cols="50" placeholder="Write something..."></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
